@@ -137,31 +137,6 @@ class UNet():
         
     def train(self, X_train, y_train, X_val, y_val,epochs=20, 
               batch_sizes = 6, weight_pth='weights/exp1/'):
-        '''
-        
-
-        Parameters
-        ----------
-        X_train : TYPE
-            The array of the training images shape [n,416, 416, 1].
-        y_train : TYPE
-            The ground turth mask of the training images with shape [n, 416 * 416, 2]
-        X_val : TYPE
-            validation image
-        y_val : TYPE
-            validation mask.
-        epochs : TYPE, optional
-            training epochs. The default is 20.
-        batch_sizes : TYPE, optional
-            the training batch size. The default is 6.
-        weight_pth : TYPE, optional
-            the folder to save the trained network weights. The default is 'weights/exp1/'.
-
-        Returns
-        -------
-        None.
-
-        '''
         hist = self.model.fit(X_train,y_train,batch_size = batch_sizes,
                               callbacks = self.call_backs,epochs=epochs,
                               validation_data=(X_val,y_val), shuffle=True)
