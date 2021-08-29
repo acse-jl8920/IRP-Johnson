@@ -118,6 +118,7 @@ class UNet():
         None.
 
         '''   
+        
     
         csv_logger = CSVLogger(log_file_path, append=False)
         # early_stop = EarlyStopping('loss', min_delta=0.1, patience=patience, verbose=1)
