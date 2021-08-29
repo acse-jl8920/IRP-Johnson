@@ -31,8 +31,16 @@ unet.load_weights('your_model_weight_pth')
 
 ## Using the python module
 You can see the example in the expamle.ipynb
-
-
+You need to complied the model before testing and trainin the model.
+If you would like to train the model by yourselves, please complie the model before start the training process. 
+Checking the doc string to see the details of the function parameters.
+```python
+from model import UNet
+unet = UNet()
+unet.complie()
+unet.train(train_img, train_mask, val_img, val_mask)
+```
+The training img array in this project is [n, 416, 416, 1], and the mask array shape in this project is [n, 416*416, 2].
 
 
 
