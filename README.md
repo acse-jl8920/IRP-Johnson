@@ -21,7 +21,7 @@ The model was coded as python module
 * Tensorflow ( recommended  version : 2.4.1 )
 
 
-## Build models and load weights:
+### Build models and load weights:
 ```python
 from model import UNet
 unet = UNet()
@@ -30,7 +30,7 @@ unet.load_weights('your_model_weight_pth')
 ```
 
 
-## Using the python module
+### Using the python module
 You can see the example in the expamle.ipynb
 You need to complied the model before testing and trainin the model.
 If you would like to train the model by yourselves, please complie the model before start the training process. 
