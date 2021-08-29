@@ -1,0 +1,16 @@
+
+*.zip
+crater_data/__MACOSX/crater_data/data_images/._aeolis_54_0vh.png
+crater_data/__MACOSX/crater_data/._data_images
+crater_data/__MACOSX/crater_data/._data_labels
+*.DS_Store
+*.png
+crater_data/crater_data/data_labels/aeolis_29_3.txt
+crater_data/crater_data/data_labels/aeolis_29_3h.txt
+crater_data/crater_data/data_labels/aeolis_29_3v.txt
+crater_data/
+yolov3/
+coco/
+coco128/
+PyTorch-YOLOv3/data/
+PyTorch-YOLOv3/
