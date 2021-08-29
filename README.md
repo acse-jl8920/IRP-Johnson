@@ -3,7 +3,8 @@
 Implementation of U-net in Crater automatic detection.
 
 ## Datasets
-Link to the crated datasets in this project: https://drive.google.com/file/d/1lxiI3inP-xfHm9wuAY9MsMUd_BZ9Omr_/view?usp=sharing
+Link to the crated datasets in this project: https://drive.google.com/file/d/1lxiI3inP-xfHm9wuAY9MsMUd_BZ9Omr_/view?usp=sharing .
+
 The file structure:
 * mask: This folder contains the original json file created by Labelme
 * data_image_1: The crater image with augmentation.
